@@ -1,0 +1,66 @@
+﻿.faq-container {
+  margin-top: -100px;
+  padding-top: 150px;
+}
+.FAQ {
+  width: 75%;
+  font-family: "Permanent Marker", cursive;
+  background-color: rgba(128, 128, 128, 0.8);
+  color: #0d0106;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+  border-radius: 30px;
+  height: 100%;
+}
+
+.FAQ h1 {
+  text-align: center;
+  color: #fbfbff;
+  font-size: 3rem;
+}
+
+.FAQ h3 {
+  text-align: center;
+  color: #3626a7;
+  margin-top: 2rem;
+}
+
+.FAQ p {
+  text-align: center;
+  margin-top: 3rem;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .FAQ {
+    width: 90%;
+  }
+
+  .FAQ h1 {
+    font-size: 3rem;
+  }
+  .FAQ h3 {
+    font-size: 2rem;
+  }
+
+  .FAQ p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .FAQ h1 {
+    font-size: 2.5rem;
+  }
+  .FAQ h3 {
+    font-size: 2rem;
+  }
+
+  .FAQ p {
+    font-size: 1.5rem;
+  }
+}

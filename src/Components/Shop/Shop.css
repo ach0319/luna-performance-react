@@ -1,0 +1,107 @@
+﻿.shop {
+  background-color: #0d0106;
+  width: 100%;
+  height: auto;
+}
+.top-shop {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -25px;
+}
+
+.top-shop h1 {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #fbfbff;
+  padding: 10rem;
+  margin-top: 20px;
+}
+
+.shop-items {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  border: solid 10px #fbfbff;
+  background-color: #657ed4;
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  padding-left: 2%;
+}
+
+.shop-item {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.shop-item-title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2em;
+  text-align: center;
+  margin-top: -10%;
+}
+
+.shop-item-price {
+  font-family: "Permanent Marker", cursive;
+  color: #0d0106;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.shop-item img {
+  margin-right: auto;
+  margin-left: auto;
+}
+.shop-item select {
+  width: 100%;
+  font-size: 1em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-left: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.shop-item-details form {
+  text-align: center;
+}
+
+.shop-item-details p {
+  text-align: center;
+}
+
+.checkout {
+  position: relative;
+}
+
+@media only screen and (max-width: 1024px) {
+  .shop-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shop-item {
+    padding-top: 10%;
+  }
+
+  .shop-item select {
+    margin-left: 16rem;
+  }
+
+  .one,
+  .two {
+    margin-top: -40rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .shop-item select {
+    margin-left: 6rem;
+  }
+  .one,
+  .two {
+    margin-top: -20rem;
+  }
+}

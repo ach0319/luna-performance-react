@@ -1,0 +1,50 @@
+﻿.contact {
+  height: 100vh;
+}
+.contact-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 75%;
+  height: 50%;
+
+  color: #3626a7;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.contact-info p {
+  font-size: 1.5em;
+  font-family: "Permanent Marker", cursive;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.contact-links a {
+  font-size: 2.5em;
+  text-decoration: none;
+  margin-right: 1em;
+  margin-top: 1rem;
+}
+
+.fa-instagram-square {
+  color: purple;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-page {
+    margin-top: -1rem;
+  }
+  .contact-info p {
+    margin-top: 0.1rem;
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  .contact-info p {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+  }
+}
