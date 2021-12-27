@@ -1,4 +1,7 @@
-﻿.shop {
+﻿html,body{
+  overflow-x: hidden;
+}
+.shop {
   background-color: #0d0106;
   width: 100%;
   height: auto;
@@ -17,17 +20,35 @@
   padding: 10rem;
   margin-top: 20px;
 }
+.zero {
+  grid-area: zero;
+}
 
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two
+}
+
+.three {
+  grid-area: three
+
+}
 .shop-items {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+ grid-template-columns: 350px 350px 350px;
+ grid-template-rows: 700px ;
+ grid-template-areas: 
+ "zero one two"
+ "three . .";
   align-content: center;
   border: solid 10px #fbfbff;
   background-color: #657ed4;
-  width: 100%;
+  width: auto;
   height: auto;
   padding-top: 10%;
-  padding-left: 2%;
 }
 
 .shop-item {
@@ -59,7 +80,6 @@
   font-size: 1em;
   padding: 0.5em;
   margin-top: 0.5em;
-  margin-left: 4rem;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -91,8 +111,12 @@
   }
 
   .one,
-  .two {
-    margin-top: -40rem;
+  .two  {
+    margin-top: -60rem;
+  }
+
+  .three {
+    margin-top: -60rem;
   }
 }
 
@@ -101,7 +125,11 @@
     margin-left: 6rem;
   }
   .one,
-  .two {
-    margin-top: -20rem;
+  .two  {
+    margin-top: -40rem;
   }
+
+  .three {
+    margin-top: -40rem;
+  } 
 }
