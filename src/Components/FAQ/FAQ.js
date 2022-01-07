@@ -117,7 +117,7 @@ function FAQ() {
         <h3>Do you have a set list of prices?</h3>
 
         <p>
-          There is a set list of prices, please see pricing page. However prices
+          There is a set list of prices, please see the Price List . However prices
           can be adjusted and changed by the owners discretion depending on
           extremity of prepping the is involved for your product to be ready for
           coating. Feel free to contact me using the contact page to submit a

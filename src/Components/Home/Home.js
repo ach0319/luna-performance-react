@@ -21,13 +21,14 @@ const TestiMonials = () => {
       name: "Destynee Wilber",
       description:
         "Awesome company. Quick turn around time. Great work. Highly recommend",
-      img: "https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/259907592_4440571476062158_8453329618561622889_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=be7RXWPmm8cAX82eKCT&_nc_ht=scontent-ort2-2.xx&oh=00_AT-EMQAkq0HlhR-LAi5MemNwYoLC8-0m_z8YOX1r9j6ykg&oe=61C6ED29",
+
+      img: "https://www.kindpng.com/picc/m/78-785975_icon-profile-bio-avatar-person-symbol-chat-icon.png",
     },
     {
       name: "Olivia Jeffers",
       description:
         "Manny went above and beyond making sure I had the correct color I wanted to powder coat my bike. Never once complained my bike was a pain to take apart and put back together. Ill definitely be sending my buddies his way",
-      img: "https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/249244233_10225016228620366_1881172058847603535_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=pXhn7BDofEYAX-v9pbB&_nc_ht=scontent-ort2-2.xx&oh=00_AT-U-DD6BpRS_zgN2Yi6h-EiP0bCUm4fs_S3vFAjz-3Wkw&oe=61C61209",
+      img: "https://www.kindpng.com/picc/m/78-785975_icon-profile-bio-avatar-person-symbol-chat-icon.png",
     },
   ];
   //Owl Carousel Settings
@@ -110,3 +111,5 @@ const TestiMonials = () => {
 };
 
 export default TestiMonials;
+
+

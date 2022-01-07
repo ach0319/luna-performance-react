@@ -49,7 +49,7 @@ function Price() {
           <br />
           2-3 stage $275
         </p>
-        <h3>Fames:</h3>
+        <h3>Frames:</h3>
         <p>
           1 stage $150
           <br />
@@ -68,13 +68,13 @@ function Price() {
           2-3 stage $175
         </p>
         <h3>Lift Kits:</h3>
-        <h4>4-peice</h4>
+        <h4>4-piece</h4>
         <p>
           1 stage $350
           <br />
           2-3 stage $450
         </p>
-        <h4>6+ peices</h4>
+        <h4>6+ pieces</h4>
         <p>
           1 stage $500
           <br />

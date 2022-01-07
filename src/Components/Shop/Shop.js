@@ -1,6 +1,6 @@
 ﻿import React, { useState } from "react";
 import "../Shop/Shop.css";
-import AirFresheners from "../Images/AirFresheners.jpeg";
+import NewAirFresheners from "../Images/NewAirFresheners.jpg";
 import image3 from "../Images/image3.png";
 import lunaperformancesweathirt from "../Images/lunaperformancesweathirt.jpeg";
 import lunaperformanceshirt from "../Images/lunaperformanceshirt.jpeg";
@@ -26,10 +26,10 @@ function Shop() {
           <div className="shop-item zero">
             <span className="shop-item-title">Air Fresheners</span>
             <img
-              src={AirFresheners}
+              src={NewAirFresheners}
               alt="pic of air fresheners"
               style={{
-                width: "200px",
+                width: "273px",
                 height: "349px",
               }}
             ></img>
@@ -194,13 +194,21 @@ function Shop() {
               }}
             ></img>
             <div class="shop-item-details">
-              <p class="shop-item-price">$45.00</p>
+              <p class="shop-item-price">$30.00-$45.00</p>
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <input type="hidden" name="cmd" value="_s-xclick"/>
-                <input type="hidden" name="hosted_button_id" value="VKXPJK5AQ3K6E"/>
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-              </form>
+<input type="hidden" name="cmd" value="_s-xclick"/>
+<input type="hidden" name="hosted_button_id" value="VKXPJK5AQ3K6E"/>
+<table>
+<tr><td><input type="hidden" name="on0" value="Sizes"/>Sizes</td></tr><tr><td><select name="os0">
+	<option value="30 ounce">30 ounce $45.00 USD</option>
+	<option value="20 ounce">20 ounce $30.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+
 
             </div>
           </div>
