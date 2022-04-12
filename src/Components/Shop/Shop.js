@@ -20,7 +20,7 @@ function Shop() {
           backgroundColor: "#0d0106",
         }}
       >
-        <h1>LUNA PERFORMANCE SHOP</h1>
+        <h1>LUNA PERFORMANCE & COATINGS SHOP</h1>
       </div>
       <div className="container content-section">
         <div className="shop-items">
@@ -105,8 +105,8 @@ function Shop() {
               src={lunaperformancesweathirt}
               alt="pic luna performance sweatshirt"
               style={{
-                width: "320px",
-                height: "236px",
+                width: "250px",
+            
               }}
             ></img>
             <div class="shop-item-details">
@@ -145,8 +145,8 @@ function Shop() {
             <span className="shop-item-title">T-Shirt</span>
             <img src={lunaperformanceshirt} alt="pic luna performance shirt"
             style={{
-              width: "320px",
-              height: "171px",
+              width: "250px",
+
             }}></img>
             <div class="shop-item-details">
               <p class="shop-item-price">$25.00</p>
@@ -217,8 +217,8 @@ function Shop() {
                 alt="pic dog in luna performance sweatshirt"
                 className= "item-image"
                 style={{
-                width: "320px",
-                height: "163px",
+                width: "250px",
+               
                 
               }}
             ></img>

@@ -20,7 +20,7 @@ function About() {
       </div>
       <div className="about-me">
         <p>
-          Luna Performance specializes in powder coating of a wide variety of
+          Luna Performance & Coatings specializes in powder coating of a wide variety of
           products. My products are targeted towards, but not limited to, the
           fellow biker communities. I began this business in 2018 when my son
           was born. I wanted to be able to leave my son something he can grow

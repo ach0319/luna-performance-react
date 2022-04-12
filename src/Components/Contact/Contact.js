@@ -24,7 +24,7 @@ function Contact() {
             <p className="contact-text">
               Phone/Text Number:
               <br />
-              (919)-742-0447
+              (919)-273-5365
               <br />
               Social Media:
             </p>

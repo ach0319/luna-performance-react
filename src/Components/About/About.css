@@ -11,15 +11,15 @@
 }
 
 img {
-  width: 520px;
-  height: 650px;
+  width: 350px;
+  
 }
 
 .about-image {
   background-color: black;
   box-shadow: 10px 10px 5px grey;
   margin-bottom: 5%;
-  margin-top: -150px;
+  margin-top: 100px;
 }
 
 .about-me {
@@ -49,8 +49,8 @@ img {
     padding-bottom: 20px;
   }
   img {
-    width: 320px;
-    height: 390px;
+    width: 200px;
+    
   }
   .about-image {
     box-shadow: 10px 10px 5px grey;

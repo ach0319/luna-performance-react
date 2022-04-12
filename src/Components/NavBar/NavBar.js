@@ -25,7 +25,7 @@ function Nav() {
       <CSSReset />
       <Navbar.Wrapper>
         <Link to="/">
-          <Navbar.Logo>LUNA PERFORMANCE</Navbar.Logo>
+          <Navbar.Logo>LUNA PERFORMANCE & COATINGS</Navbar.Logo>
         </Link>
 
         <HamburgerButton.Wrapper onClick={() => toggleDrawer(true)}>
@@ -95,13 +95,13 @@ const Navbar = {
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     @media only screen and (max-width: 1024px) {
       font-size: 2.5rem;
     }
     @media only screen and (max-width: 40em) {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   `,
 

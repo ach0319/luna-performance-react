@@ -91,47 +91,69 @@
 }
 
 .two, .three, .four {
-  margin-top: -50%;
+  margin-top: -25%;
   
 }
 
 @media only screen and (max-width: 1024px) {
   .shop-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .shop-item {
     padding-top: 10%;
   }
 
-
   .one,
   .two  {
-    margin-top: -80rem;
+    margin-top: -40rem;
   }
 
   .three {
-    margin-top: -80rem;
+    margin-top: -40rem;
   }
 
   .four {
-    margin-top: -80rem;
+    margin-top: -40rem;
   }
+  
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 425px) {
   .one,
   .two  {
-    margin-top: -60rem;
+    margin-top: -20rem;
   }
 
   .three {
-    margin-top: -60rem;
+    margin-top: -20rem;
   } 
 
   .four {
-    margin-top: -60rem;
+    margin-top: -20rem;
+  }
+ 
+  .paypal-button {
+    
+    left: 30%;
+    
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .one,
+  .two  {
+    margin-top: -20rem;
+  }
+
+  .three {
+    margin-top: -20rem;
+  } 
+
+  .four {
+    margin-top: -20rem;
   }
  
   .paypal-button {
