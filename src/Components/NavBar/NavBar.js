@@ -116,7 +116,7 @@ const Navbar = {
       right: 0;
       top: 5.25vh;
       width: 100%;
-      height: 27%;
+      height: auto;
       background-image: linear-gradient(45deg, white, slategray);
       flex-direction: column;
       background-color: white;
@@ -127,7 +127,7 @@ const Navbar = {
     }
     @media only screen and (max-width: 40em) {
       top: 6.1vh;
-      height: 30%;
+      height: auto;
     }
   `,
   Item: styled.li`

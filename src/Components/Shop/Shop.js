@@ -5,6 +5,7 @@ import image3 from "../Images/image3.png";
 import lunaperformancesweathirt from "../Images/lunaperformancesweathirt.jpeg";
 import lunaperformanceshirt from "../Images/lunaperformanceshirt.jpeg";
 import Ctumbler from "../Images/Ctumbler.jpeg";
+import DoggieSweatshirt from "../Images/DoggieSweatshirt.jpg";
 
 function Shop() {
   return (
@@ -82,23 +83,20 @@ function Shop() {
                       </select>{" "}
                     </td>
                   </tr>
-                </table>
-                <input
+                </table><input
                   type="image"
                   src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
                   border="0"
                   name="submit"
                   alt="PayPal - The safer, easier way to pay online!"
                   className="paypal-button"
-                />
-                <img
+                /><img
                   alt=""
                   border="0"
                   src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                   width="1"
                   height="1"
-                />
-              </form>
+                /></form>
             </div>
           </div>
           <div className="shop-item one">
@@ -138,7 +136,7 @@ function Shop() {
 	            <option value="Adult-5XL">Adult-5XL </option>
               </select> </td></tr>
                 </table>
-              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" className="paypal-button" alt="PayPal - The safer, easier way to pay online!"/>
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
               </form>
             </div>
@@ -176,7 +174,7 @@ function Shop() {
 	<option value="Adult-5XL">Adult-5XL </option>
 </select> </td></tr>
 </table>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" className="paypal-button" alt="PayPal - The safer, easier way to pay online!"/>
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 </form>
 
@@ -205,16 +203,54 @@ function Shop() {
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD"/>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" className="paypal-button" alt="PayPal - The safer, easier way to pay online!"/>
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 </form>
 
 
             </div>
           </div>
+          <div className="shop-item four">
+            <span className="shop-item-title">Doggie Sweatshirt</span>
+              <img
+                src={DoggieSweatshirt}
+                alt="pic dog in luna performance sweatshirt"
+                className= "item-image"
+                style={{
+                width: "320px",
+                height: "163px",
+                
+              }}
+            ></img>
+            <div class="shop-item-details">
+              <p class="shop-item-price">$45.00</p>
+              <p>*Black with White Lettering</p>
+              <p>**Colors may vary</p>
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick"/>
+                <input type="hidden" name="hosted_button_id" value="DYVW25SPFU2TU"/>
+                  <table>
+<tr><td><input type="hidden" name="on0" value="Sizes"/>Sizes</td></tr><tr><td><select name="os0">
+	<option value="XS">XS </option>
+	<option value="SM">SM </option>
+	<option value="MD">MD </option>
+	<option value="LG">LG </option>
+	<option value="XL">XL </option>
+	<option value="2XL">2XL </option>
+	<option value="3XL">3XL </option>
+	<option value="4XL">4XL </option>
+	<option value="5XL">5XL </option>
+	<option value="6XL">6XL </option>
+</select> </td></tr>
+                  </table>
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" className="paypal-button" alt="PayPal - The safer, easier way to pay online!"/>
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+              </form>
+            </div>
+            </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
   );
 }
 

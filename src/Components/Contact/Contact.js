@@ -22,9 +22,6 @@ function Contact() {
         <div className="contact-page">
           <div className="contact-info">
             <p className="contact-text">
-              Address:
-              <br /> 108 Rams Place <br />
-              Mount Olive, NC 28665-8717 <br />
               Phone/Text Number:
               <br />
               (919)-742-0447

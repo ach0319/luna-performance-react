@@ -20,41 +20,24 @@
   padding: 10rem;
   margin-top: 20px;
 }
-.zero {
-  grid-area: zero;
-}
 
-.one {
-  grid-area: one;
-}
-
-.two {
-  grid-area: two
-}
-
-.three {
-  grid-area: three
-
-}
 .shop-items {
-  display: grid;
- grid-template-columns: 350px 350px 350px;
- grid-template-rows: 700px ;
- grid-template-areas: 
- "zero one two"
- "three . .";
-  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-content: flex-start;
   border: solid 10px #fbfbff;
   background-color: #657ed4;
   width: auto;
   height: auto;
   padding-top: 10%;
+  
 }
 
 .shop-item {
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  /*margin: 5%;*/
 }
 
 .shop-item-title {
@@ -75,6 +58,17 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.shop-item form {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.shop-item table {
+  margin-left: auto;
+  margin-right: auto;
+}
 .shop-item select {
   width: 100%;
   font-size: 1em;
@@ -82,18 +76,23 @@
   margin-top: 0.5em;
   text-align: center;
   margin-bottom: 1rem;
+
 }
 
-.shop-item-details form {
-  text-align: center;
-}
 
 .shop-item-details p {
   text-align: center;
 }
 
-.checkout {
+.paypal-button {
   position: relative;
+  left: 40%;
+  margin-bottom: 90%;
+}
+
+.two, .three, .four {
+  margin-top: -50%;
+  
 }
 
 @media only screen and (max-width: 1024px) {
@@ -106,30 +105,38 @@
     padding-top: 10%;
   }
 
-  .shop-item select {
-    margin-left: 16rem;
-  }
 
   .one,
   .two  {
-    margin-top: -60rem;
+    margin-top: -80rem;
   }
 
   .three {
-    margin-top: -60rem;
+    margin-top: -80rem;
+  }
+
+  .four {
+    margin-top: -80rem;
   }
 }
 
-@media only screen and (max-width: 375px) {
-  .shop-item select {
-    margin-left: 6rem;
-  }
+@media only screen and (max-width: 414px) {
   .one,
   .two  {
-    margin-top: -40rem;
+    margin-top: -60rem;
   }
 
   .three {
-    margin-top: -40rem;
+    margin-top: -60rem;
   } 
+
+  .four {
+    margin-top: -60rem;
+  }
+ 
+  .paypal-button {
+    
+    left: 0%;
+    
+  }
 }

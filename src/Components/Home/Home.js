@@ -7,7 +7,6 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import "../Testimonials/testimonials.css";
 import image1 from "../Images/image1.jpeg";
 import "../Home/home.css";
-import { faBorderNone } from "@fortawesome/free-solid-svg-icons";
 
 const TestiMonials = () => {
   const testiMonials = [
@@ -15,7 +14,7 @@ const TestiMonials = () => {
       name: "David Scott",
       description:
         "Great work great turn around highly recommened. For all powder coat needs",
-      img: "https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/25790776_1980096192005973_6705608775709281369_o.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=t2kn3SMBUxIAX9Wa_YL&_nc_ht=scontent-ort2-2.xx&oh=00_AT_KHdMUHF9kI1ULoL67UwjYmZlbv4SLhB4URwYdheSKnA&oe=61E66FC0",
+      img: "https://www.kindpng.com/picc/m/78-785975_icon-profile-bio-avatar-person-symbol-chat-icon.png",
     },
     {
       name: "Destynee Wilber",
